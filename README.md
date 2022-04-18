@@ -10,11 +10,6 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -36,6 +31,7 @@ Users should be able to:
   <img src ='https://i.ibb.co/w7jWBjt/screencapture-127-0-0-1-5500-index-html-2022-04-18-18-46-18.png' width="500" height="290">
   <img src='https://i.ibb.co/jGG1cxK/screencapture-127-0-0-1-5500-index-html-2022-04-18-18-46-43.png' width='90' height='250'>
 </div>
+
 ### Links
 
 - Live Site URL: [Click Here](https://ninjas-t.github.io/intro-component-with-signup-form-Sara/)
