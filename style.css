@@ -19,7 +19,7 @@ body {
 main {
   padding: 2rem;
 }
-
+/* ========= start of introduction section ========= */
 #introduction {
   text-align: center;
   color: white;
@@ -31,7 +31,9 @@ main {
   font-size: 1.8rem;
   margin-bottom: 1rem;
 }
+/* ========= end of introduction section ========= */
 
+/* ========= start of sign up section ========= */
 #sign-up p:nth-child(1) {
   padding: 1.3rem 4rem;
   background-color: var(--Blue);
@@ -84,4 +86,98 @@ main {
 #sign-up form p span {
   color: var(--Red);
   font-weight: 600;
+}
+/* ========= end of sign up section ========= */
+
+/* ========= media queries ========== */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  html {
+    font-size: 18px;
+  }
+
+  main {
+    padding: 4rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  html {
+    font-size: 16px;
+  }
+
+  main {
+    display: flex;
+    padding-top: 7rem;
+  }
+
+  #introduction {
+    padding: 10rem 2rem 0;
+    text-align: left;
+  }
+
+  #introduction h2 {
+    font-size: 2.5rem;
+  }
+
+  #sign-up p:nth-child(1) {
+    font-size: 0.7rem;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  html {
+    font-size: 16px;
+  }
+
+  main {
+    display: flex;
+    padding-top: 7rem;
+  }
+
+  #introduction {
+    padding: 10rem 3rem 0;
+    text-align: left;
+  }
+
+  #introduction h2 {
+    font-size: 2.5rem;
+  }
+  #sign-up {
+    padding: 3rem;
+  }
+  #sign-up p:nth-child(1) {
+    font-size: 0.7rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  html {
+    font-size: 16px;
+  }
+
+  main {
+    display: flex;
+    padding: 10rem 8rem;
+  }
+
+  #introduction {
+    width: 65%;
+    padding: 8rem 10rem 0 2rem;
+    text-align: left;
+  }
+
+  #introduction h2 {
+    padding: 0 1rem 0 0;
+    font-size: 3rem;
+  }
+  #introduction p {
+    padding-right: 2rem;
+    font-size: 1.5;
+  }
+  #sign-up {
+    width: 35%;
+  }
+  #sign-up p:nth-child(1) {
+    font-size: 0.7rem;
+  }
 }
